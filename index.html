@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Runes Afsked</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
 
-    <div class="grid">
-        <h1>Afskedsceremoni for Rune</h1>
-        <p>Her finder du programmet for dagen samt de sangtekster, vi synger under ceremonien.</p>
-        <p>
-          <b>Tid:</b> Mandag den 31. marts 2025 kl. 11:00<br/>
-          <b>Sted:</b> På stranden ved Greve Strand<br/>
-          <b>Adresse:</b> Greve Strandvej 9-11, 2670 Greve<br/>
-        </p>
-        <div class="card">
-          <h3>Program for dagen</h3>
-          <h4>Ceremoniens forløb:</h4>
-          <p class="vers">
-            Velkomst (Freja, Runes søster) 
-          </p>
-          <p class="vers">
-            Ord og minder om Rune (taler) 
-          </p>
-          <p class="vers">
-            Fællessang: 
-            <a href="/sang1/sang.html">
-              Forelskelsessang
-            </a>
-          </p>
-          <p class="vers">
-            Musikstykke: 
-            <a href="/sang2/sang.html">
-              No one but you (only good die Young) 
-            </a>
-          </p>
-          <p class="vers">
-            Musikstykke: 
-            <a href="/sang3/sang.html">
-              En kriger med vinger 
-            </a>
-          </p>
-          <p class="vers">
-            Mulighed for at lægge farvelroser
-          </p>
-          <p class="vers">
-            Rune kører afsted på sin sidste rejse
-          </p>
-          <p class="vers">
-            Samvær og varme drikke på stranden
-          </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Runes Afsked</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-          <!-- <div class="shine"></div> -->
-        </div>
-        <div class="card">
-          <h3>Indsamling til Runes datter</h3>
-          <p>
-            Flere har spurgt, hvordan de kan støtte eller hjælpe i forbindelse med Runes alt for tidlige død. 
-            Derfor har vi oprettet en indsamling til fordel for hans datter.<br/><br/>
-            MobilePay: [indsæt nummer]<br/><br/>
-            På forhånd tusind tak for jeres omsorg og støtte.
-          </p>
-        </div>
-      </div>
-      
-      <label class="day-night">
-        <input type="checkbox" checked />
-        <div></div>
-      </label>
-      
-    <script src="script.js"></script>
-  </body>
+<body>
+
+  <div class="grid">
+    <h1>Afskedsceremoni for&nbsp;Rune</h1>
+    <p class="dato">
+      <b>Tid:</b> Mandag den 31. marts 2025 kl. 11:00<br />
+      <b>Sted:</b> På stranden ved Greve Strand<br />
+      <b>Adresse:</b> Greve Strandvej 9-11, 2670 Greve<br />
+    </p>
+    <div class="card program">
+      <!-- <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+          stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M14.5 3.5C14.5 3.5 14.5 5.5 12 5.5C9.5 5.5 9.5 3.5 9.5 3.5H7.5L4.20711 6.79289C3.81658 7.18342 3.81658 7.81658 4.20711 8.20711L6.5 10.5V20.5H17.5V10.5L19.7929 8.20711C20.1834 7.81658 20.1834 7.18342 19.7929 6.79289L16.5 3.5H14.5Z" />
+        </svg>
+      </span> -->
+      <h3>Program for dagen</h3>
+      <h4>Ceremoniens forløb:</h4>
+      <p class="vers">
+        Velkomst<br/>
+        V. Freja, Runes søster
+      </p>
+      <p class="vers">
+        Taler<br/>
+        Ord og minder om Rune (taler)
+      </p>
+      <p class="vers">
+        Fællessang:<br/>
+        <a href="/sang1/sang.html">Forelskelsessang</a>
+      </p>
+      <p class="vers">
+        Musikstykke:<br/>
+        <a href="/sang2/sang.html">No one but you (only good die Young)</a>
+      </p>
+      <p class="vers">
+        Musikstykke:<br/>
+        <a href="/sang3/sang.html">En kriger med vinger</a>
+      </p>
+      <p class="vers">
+        Mulighed for at lægge farvelroser
+      </p>
+      <p class="vers">
+        Rune kører afsted på sin sidste rejse
+      </p>
+      <p class="vers">
+        Samvær og varme drikke på stranden
+      </p>
+
+      <!-- <div class="shine"></div> -->
+    </div>
+    <div class="card indsamling">
+      <h3>Indsamling til Runes datter</h3>
+      <p>
+        Flere har spurgt, hvordan de kan støtte eller hjælpe i forbindelse med Runes alt for tidlige død.
+        Derfor har vi oprettet en indsamling til fordel for hans datter.<br /><br />
+        MobilePay: [indsæt nummer]<br /><br />
+        På forhånd tusind tak for jeres omsorg og støtte.
+      </p>
+    </div>
+  </div>
+
+  <label class="day-night">
+    <input type="checkbox" checked />
+    <div></div>
+  </label>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
