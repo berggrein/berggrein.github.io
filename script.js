@@ -12,3 +12,11 @@ document.querySelector(".day-night input").addEventListener("change", () => {
     }, 5);
   });
   
+
+  // Textsize increaser
+let curFontSize = "14";
+const texts = document.querySelectorAll("p.vers");
+document.querySelector("svg.text-size").addEventListener("click", () => {
+  const newSize = "font-size: " + ++curFontSize + "px";
+  texts.forEach((element) => element.setAttribute("style", newSize));
+});

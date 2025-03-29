@@ -491,6 +491,20 @@ body:before {
   color: var(--text-color);
 }
 
+svg.text-size {
+  cursor: pointer;
+  fill: var(--text-color);
+  height: 22px;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  opacity: 0.4;
+}
+
+svg.text-size:active {
+  opacity: 0.7;
+}
+
 .card p.vers {
   padding-bottom: 20px;
 }
@@ -540,6 +554,10 @@ a {
 .program {
   padding-top: 5px;
   padding-bottom: 15px;
+}
+
+.program.card p.vers::before {
+  content: "•" !important;
 }
 
 .program p {
