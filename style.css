@@ -594,6 +594,29 @@ a {
   padding-bottom: 25px;
 }
 
+.indsamling svg {
+  display: inline-block;
+  height: 12px;
+  padding-left: 3px;
+}
+
+.indsamling .indsamlingsknapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  max-width: 210px;
+}
+
+.indsamling .indsamlingsknapper a {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  flex-basis: 60px;
+  flex-grow: 0;
+  text-align: center;
+}
+
 .sang {
   margin-top: 10px;
   padding-top: 5px;
