@@ -566,6 +566,7 @@ a {
 
 .program.card p.vers::before {
   content: "•" !important;
+  font-weight: 900;
 }
 
 .program p {
