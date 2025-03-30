@@ -29,7 +29,7 @@ body {
   --card-hover-icon-color: #375197;
   --card-hover-icon-background-color: rgba(55, 81, 151, 0.1);
   --card-hover-icon-border-color: rgba(55, 81, 151, 0.2);
-  --blur-opacity: .3;
+  --blur-opacity: .6;
 }
 body.light {
   --background-color: #FAFAFA;
@@ -122,6 +122,14 @@ h1 {
   font-size: 32px;
   color: var(--card-label-color);
   text-align: center;
+  margin: 22px 0 5px 0;
+}
+h2 {
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--card-label-color);
+  text-align: center;
+  margin: 5px 0 8px 0;
 }
 h3 {
   z-index: 2;
@@ -594,4 +602,10 @@ a {
 .sang p.vers {
   margin-left: 25px;
   line-height: 160%;
+}
+
+svg.icon {
+  height: 14px;
+  fill: var(--card-label-color);
+  opacity: 0.6;
 }
